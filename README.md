@@ -3,7 +3,7 @@ original paper: https://arxiv.org/pdf/2011.06128
 dataset: https://huggingface.co/datasets/community-datasets/per_sent   
 Original source for codebase: CSE 354 Fall 2024 HW3 and inspiration from [the code from the original paper](https://github.com/StonyBrookNLP/PerSenT/blob/main/MyBert_paragraph_document_TPU.ipynb) which was unfortunately outdated hence we used HW3 code to compensate for that.
 
-Contributors: Ka Long Ngai, 
+Contributors: Ka Long Ngai, Jaglin Parmar, 
 
 ## Software requirement
 This ipynb is expected to be ran on Google Colab with T4 GPU at the time of making (Fall 2024 Semester)
