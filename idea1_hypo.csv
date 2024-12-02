@@ -1,0 +1,3 @@
+Text,True Label,Predicted Label
+"[CLS] ka long and [TGT] is working together, the sky is beautiful today huh [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]",1,2
+"[CLS] ka long is a friendly, nice, and helpful person, but [TGT] is working with him rudly. [SEP]",0,2
