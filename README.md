@@ -24,6 +24,20 @@ This ipynb is expected to be running on Google Colab with T4 GPU at the time of 
 ## Models
 Here's the link to the [google drive](https://drive.google.com/drive/folders/18u13Ix8CjAzmZAZ8DlvexqzX0MMkrgVV?usp=drive_link) containing all the models
 
+## To use a specific Models
+Assuming you've a setup in your google drive that is exactly like [ours](https://drive.google.com/drive/folders/18u13Ix8CjAzmZAZ8DlvexqzX0MMkrgVV)
+- or you can modify the code to fit it to your usecase
+
+Then you would run the following section
+1. Set up
+2. Google Drive Linking
+3. Dataset Loading
+4. The Model creation of that idea or baseline you're interested
+5. All the codes related to that model (BUT SKIP TRAINING CODES)
+6. Only run the Testing section codes which will use the model in the Google drive
+7. This is basically the same process as our Assignment 3 for this semester, just that we have 5 models for different idea / task.
+
+
 ### Baseline model training (distilbert_per_sent_baseline)
 1. Using pre-trained [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert) model
 2. Simply feed labeled (document, true sentiment) training data pair into the model from the training_data from the dataset to train the model.
