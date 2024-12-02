@@ -37,6 +37,13 @@ Then you would run the following section
 6. Only run the Testing section codes which will use the model in the Google drive
 7. This is basically the same process as our Assignment 3 for this semester, just that we have 5 models for different idea / task.
 
+Otherwise, it follows a pretty streamline format to run all the codes
+1. Run all the codes linearly
+2. when hit the IMPORTANT NOTE section, determine which idea you're interested
+3. Run all the codes from that section which will train a model then select the best one with validation data
+4. Finally running that newly trained model against testing data (which we've 2 datasets)
+5. Again, very similar if not the same for Assignment 3, just the codes within are modified to do some different behaviors.
+
 
 ### Baseline model training (distilbert_per_sent_baseline)
 1. Using pre-trained [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert) model
